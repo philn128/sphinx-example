@@ -7,14 +7,12 @@ Welcome to examplecode's documentation!
 =======================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: Contents:
 
    functions.rst
    formatting/index.rst
 ..   api/modules.rst
-
-
 
 
 Indices and tables
