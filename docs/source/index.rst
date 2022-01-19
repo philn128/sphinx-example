@@ -12,7 +12,7 @@ Welcome to examplecode's documentation!
 
    functions.rst
    formatting/index.rst
-   api/modules.rst
+..   api/modules.rst
 
 
 

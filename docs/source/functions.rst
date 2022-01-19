@@ -1,8 +1,6 @@
 
-Functions
-==========
-
-Functions will be documented here.
+Polynomials
+===========
 
 polynomial overview
 -------------------
@@ -20,10 +18,10 @@ examplecode.functions module
     :undoc-members:
     :show-inheritance:
 
-Classes
-=======
+Quadratic Functions
+===================
 
-Quadratic Function
+Quadratic Overview
 ------------------
 
 A Quadratic Function takes the form
@@ -31,12 +29,11 @@ A Quadratic Function takes the form
 .. math::
    a t^2 + b t + c
 
-It is a special type of polynomial_ that only has a degree of 2
+It is a special type of polynomial_ that only has a degree of 2. In case you missed a description of the quadratic class, here it is again:
 
 
 .. autoclass:: examplecode.functions.Quadratic
     :noindex:
-
 
 The `Quadratic formula <https://en.wikipedia.org/wiki/Quadratic_formula>`_ allows us to easily find roots of a quadratic function.
 

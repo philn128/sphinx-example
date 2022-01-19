@@ -1,11 +1,9 @@
 Formatting
 ===========
 
-Formatting docs here.
+Formatting makes text look nicer.
 
 .. automodule:: examplecode.formatters
-    :noindex:
-	:members:
-    :undoc-members:
+    :members:
     :show-inheritance:
-
+    :noindex:
