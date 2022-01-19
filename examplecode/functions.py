@@ -1,4 +1,4 @@
-
+from typing import List, Union, Tuple
 
 
 def x_squared(x):
@@ -43,9 +43,11 @@ class Quadratic(Polynomial):
         >>> print(poly.roots()) # (x+2)*(x+3) has roots at -2,-3
     """
     def __init__(self,coeficiants):
-        assert len(coeficiants) <= 3
+        assert len(coeficiants) == 3
         Polynomial.__init__(self,coeficiants)
-    def roots(self):
+        self.even_function = coeficiants[1]==0
+
+    def roots(self) -> List[Union[float,complex]]:
         """ returns the roots of the polynomial using the quadratic formula """
         c,b,a=self._coef
         return [-b+pm*(b**2-4*a*c)**(1/2)/(2*a) for pm in [-1,1]]
